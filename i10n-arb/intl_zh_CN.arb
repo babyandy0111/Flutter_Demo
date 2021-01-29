@@ -5,17 +5,17 @@
     "type": "text",
     "placeholders": {}
   },
-  "Cate": "分类",
+  "Cate": "分類",
   "@Cate": {
     "type": "text",
     "placeholders": {}
   },
-  "Find": "发现",
+  "Find": "發現",
   "@Find": {
     "type": "text",
     "placeholders": {}
   },
-  "Cart": "购物车",
+  "Cart": "購物車",
   "@Cart": {
     "type": "text",
     "placeholders": {}
@@ -25,7 +25,7 @@
     "type": "text",
     "placeholders": {}
   },
-  "Search": "搜索",
+  "Search": "搜尋",
   "@Search": {
     "type": "text",
     "placeholders": {}

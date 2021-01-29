@@ -3,7 +3,12 @@
 //
 
 #import "GeneratedPluginRegistrant.h"
-#import <video_player/VideoPlayerPlugin.h>
+
+#if __has_include(<video_player/FLTVideoPlayerPlugin.h>)
+#import <video_player/FLTVideoPlayerPlugin.h>
+#else
+@import video_player;
+#endif
 
 @implementation GeneratedPluginRegistrant
 
