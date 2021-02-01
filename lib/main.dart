@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'pages/index/index.dart';
 import 'constants/index.dart';
-import 'package:flutter_localizations/flutter_localizations.dart';
+// import 'package:flutter_localizations/flutter_localizations.dart';
 import './pages/search/search.dart';
 import 'package:flutter_shop/i10n/localization_intl.dart';
 void main() => runApp(MyApp());
@@ -17,8 +17,8 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       localizationsDelegates: [
         // 本地化的代理类
-        GlobalMaterialLocalizations.delegate,
-        GlobalWidgetsLocalizations.delegate,
+        // GlobalMaterialLocalizations.delegate,
+        // GlobalWidgetsLocalizations.delegate,
         KKLocalizationsDelegate()
       ],
       supportedLocales: [
